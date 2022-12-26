@@ -2,7 +2,10 @@ header {
     flex-grow: 1;
     height: 100vh;
     color: #fff;
-    background: linear-gradient(to bottom, #27b060, #27b060, #27b060);
+    /* background: linear-gradient(to bottom, #27b060, #27b060, #27b060); */
+    background: linear-gradient(to bottom, #27b060, #27b060, #27b060, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
+    filter: contrast(120%);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     /* #8fe1b1 */
 }
 
@@ -17,13 +20,15 @@ header {
     width: 8rem;
     height: auto;
     border-radius: 100%;
-    border: 5px solid #229452
+    border: 5px solid #229452;
+    margin-bottom: 1.5rem;
 }
 
 ul {
     margin: 0;
 }
 
-ul li{
+ul li {
     margin-top: 1rem;
+    list-style: none;
 }
